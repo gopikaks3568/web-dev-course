@@ -1,0 +1,28 @@
+/* Write your code here: */
+/*combined element selector*/
+ h1,h2 {
+    color: blueviolet;
+ }
+
+
+/*child selector ---> immediate descendant */
+.box > p{
+    color: firebrick;
+ }
+
+ /*descendant selector  --->any descenant of box class */
+ .box li{
+    color: blue;
+ }  
+
+/*Chaining selector  ---> done is a class */
+li.done{
+    color: seagreen;
+}
+
+/*Combine the selectors  */
+ul > p.done {
+    font-size: 0.5rem;
+}
+
+

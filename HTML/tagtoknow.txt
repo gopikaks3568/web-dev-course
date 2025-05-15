@@ -1,0 +1,38 @@
+Extra html tags to know 
+
+<strong>: Important text, usually bold.
+<em>: Emphasized text, usually italic.
+<blockquote>: Quoted text from another source.
+<code>: Inline code snippet.
+<pre>: Preformatted text that retains whitespace.
+
+Images and Media
+<figure> and <figcaption>: For images with captions.
+<audio>: Embeds audio content.
+<video>: Embeds video content.
+
+Forms and Inputs
+<form>: Represents a form for user input.
+<input>: Input field for user data.
+<textarea>: Multi-line input field.
+<button>: Clickable button.
+<select>: Dropdown list.
+<label>: Labels for form controls.
+
+Semantic Elements
+<header>: Introductory content, often contains navigational links.
+<footer>: Footer for content or section.
+<section>: Thematic grouping of content.
+<article>: Self-contained content, such as a blog post.
+<aside>: Content related to the main content (like sidebars).
+<main>: The main content area of the document.
+
+Scripting and Links
+<script>: For including JavaScript.
+<link>: For linking external resources like stylesheets.
+<style>: For internal CSS styles.
+Data Tables
+<table>: Defines a table.
+<tr>: Table row.
+<td>: Table data cell.
+<th>: Table header cell.

@@ -1,0 +1,20 @@
+git init            - to initiazlise the git to track changes 
+git status          - to check the files in staging area
+git add             - to add the files to staging area
+git commit - m "message"    - to the commit the changes / records the snapshots of all tracked files in your directory
+git log             - to see the commits 
+git add .           - to add mutiple files to track changes that are in  current working directory 
+git diff filename   - to show the difference between the files after changes tracked 
+git checkout        - to roll back to the previous version 
+git remote add origin main - to push the local commits to remote repo
+git push -u <remote name> <branch name> SSH/HTTPS link -  to push the changes to the remote repo
+touch gitignore     - to create the gitignore file to store the things the need not have to upload on a open source platform 
+git rm  --cache -r . - to undo the git initiazlisation to all the files 
+git clone           - to create a copy of the 
+git branch branchName - creates a new branch 
+git branch          - shows the branches
+git checkout newBranchName - to change the current working branck to another branch
+git rebase          - the advantage is  that it can be used to make a nice linear sequence of commits.
+
+
+note: HEAD is the symbolic name for the currently checked out commit -- it's essentially what commit you're working on top of.

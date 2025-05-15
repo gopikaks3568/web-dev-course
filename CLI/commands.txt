@@ -1,0 +1,21 @@
+Command Line Interface (CLI)
+
+ls - to list the files in a directory
+ls -a  -> to find the hidden files 
+cd - change the current working directory   
+cd ~ - > goes to the root folder  
+cd .. -> back to the previous level / one level back 
+mkdir - to make new directory
+touch - create a file
+rm filename ->  remove files 
+rm * ->  removes all files in a directory 
+rm -r directoryName -> removes the directory 
+start filename  -> opens the file in default app (notepad)
+code filename.exe  -> opens the file in VSC to edit
+pwd (print working directory)  -> shows the current working directory
+mv oldFileName.exe newFileName.exe - rename the file 
+
+
+ctrl + a -> to the beginning of the command 
+ctrl + e  -> to the end of the command 
+ctrl + u -> to clear the command 

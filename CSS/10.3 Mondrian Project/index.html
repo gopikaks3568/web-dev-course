@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    .container{
+      height: 748px;
+      width: 748px;
+      background-color: black;
+      border: black solid 2px;
+      display: grid;
+      gap: 0;
+    }
+    .box_red{
+      background-color: red;
+    
+      height: 414px;
+      width: 320px;
+      border-right:  black solid 10px;
+      border-bottom:  black solid 10px;
+    }
+    .box_peach{
+      background-color: rgba(0, 206, 45, 0.598);
+      grid-row : 1;
+      grid-column: 2;
+      height: 414px;
+      width: 428px;
+      border-bottom:  black solid 10px; }
+    .box_peach2{
+      background-color: rgb(23, 52, 194);
+      grid-column: 1;
+      height: 320px;
+      width: 320px;
+      border-bottom: black solid 10px;
+    }
+    .box_yellow{
+      background-color: yellow;
+      border: black;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+   <div class="container">
+      <div class="box_red"></div>
+      <div class="box_peach"></div>
+      <div class="box_peach2"></div>
+      <div class="box_yellow"></div>
+
+   </div>
+
+   </div>
+</body>
+
+</html>
