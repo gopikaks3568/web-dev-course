@@ -1,0 +1,49 @@
+🔵 1xx – Informational
+
+100 Continue – Request received, client can continue.
+
+101 Switching Protocols – Server switching to another protocol.
+
+🟢 2xx – Success
+
+200 OK – Request succeeded.
+
+201 Created – Resource created (e.g. after POST).
+
+204 No Content – Request succeeded but no content to return.
+
+🟡 3xx – Redirection
+
+301 Moved Permanently – Resource moved to a new URL.
+
+302 Found – Resource temporarily moved (commonly used for redirects).
+
+304 Not Modified – Resource not modified since last request (used for caching).
+
+🔴 4xx – Client Errors
+
+400 Bad Request – Malformed request.
+
+401 Unauthorized – Authentication required.
+
+403 Forbidden – Server refuses to authorize the request.
+
+404 Not Found – Resource not found.
+
+405 Method Not Allowed – HTTP method not supported for the resource.
+
+409 Conflict – Request conflicts with current server state.
+
+422 Unprocessable Entity – Semantic error in request (common in validation failures for APIs).
+
+⚫ 5xx – Server Errors
+
+500 Internal Server Error – Generic server error.
+
+501 Not Implemented – Server doesn't support the requested functionality.
+
+502 Bad Gateway – Invalid response from an upstream server.
+
+503 Service Unavailable – Server is temporarily overloaded or under maintenance.
+
+504 Gateway Timeout – No response from upstream server in time.
