@@ -17,4 +17,14 @@ git checkout newBranchName - to change the current working branck to another bra
 git rebase          - the advantage is  that it can be used to make a nice linear sequence of commits.
 
 
+# 1. Update your global identity
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+# 2. Fix the current commit
+git commit --amend --reset-author
+
+# 3. Check it worked
+git log --pretty=full
+
 note: HEAD is the symbolic name for the currently checked out commit -- it's essentially what commit you're working on top of.
