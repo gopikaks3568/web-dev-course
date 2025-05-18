@@ -27,4 +27,7 @@ git commit --amend --reset-author
 # 3. Check it worked
 git log --pretty=full
 
+# Make sure your local uses `main` by default (if you want)
+git config --global init.defaultBranch main
+
 note: HEAD is the symbolic name for the currently checked out commit -- it's essentially what commit you're working on top of.
