@@ -16,6 +16,9 @@ git branch          - shows the branches
 git checkout newBranchName - to change the current working branck to another branch
 git rebase          - the advantage is  that it can be used to make a nice linear sequence of commits.
 
+#0 If you’re only using this identity for this one project, set it locally:
+git config --global user.name "Gopika K S"
+git config --global user.email "your_personal@email.com"
 
 # 1. Update your global identity
 git config --global user.name "Your Name"
