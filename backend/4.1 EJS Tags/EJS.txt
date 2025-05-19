@@ -1,0 +1,6 @@
+<% = variable %>                   ->  JS output
+<% console.log("hello")%>          ->  JS execute
+<%- html code %>                   ->  Render html
+<%% %%>                            ->  Show <% or %> 
+<%# This is a comment %>           ->  Stop Execution
+<%- include("header.ejs") %>       ->  Insert another EJS file 
