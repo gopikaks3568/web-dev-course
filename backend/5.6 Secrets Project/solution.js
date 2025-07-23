@@ -4,6 +4,7 @@ import axios from "axios";
 const app = express();
 const port = 3000;
 
+app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 app.get("/", async (req, res) => {
@@ -15,7 +16,7 @@ app.get("/", async (req, res) => {
     });
   } catch (error) {
     console.log(error.response.data);
-    res.status(500);
+    res.status(500).send("An error occurred while fetching the secret.");
   }
 });
 
