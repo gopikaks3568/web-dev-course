@@ -10,9 +10,18 @@
 CSS FLoat
   *float : left -> the contents are wrapped  to the left
   *float : right -> the contents are wrapped  to the right
-  *clear : left 
-  *clear : right
-  *clear : both -> below all
+ 
+  clear: none | left | right | both | inline-start | inline-end;
+  
+clear: none; → default, element can sit next to floats.
+
+clear: left; → moves the element below any floated elements on the left.
+
+clear: right; → moves it below any floated elements on the right.
+
+clear: both; → moves it below floated elements on both sides (super common).
+
+clear: inline-start / inline-end; → newer values, respect writing direction (left-to-right vs right-to-left languages).
 
 -->
 
