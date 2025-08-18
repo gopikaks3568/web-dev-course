@@ -1,12 +1,11 @@
 // dummy change to trigger a commit
 // This file is part of the QR Code Project
 
-// 
-kjvjknvnkfvknlf
+
 import inquirer from 'inquirer';
 import fs from "fs";
 import qr from 'qr-image';
-import { deepStrictEqual } from 'assert';
+
 
 inquirer
   .prompt([
@@ -17,7 +16,11 @@ inquirer
     // Use user feedback for... whatever!!
     const data = answers.URL;
     var qr_svg = qr.image(data);
-    qr_svg.pipe(fs.createWriteStream('qr__img.png'));
+    const qrStream = fs.createWriteStream('qr__img.png');
+    qr_svg.pipe(qrStream);
+    qrStream.on('finish', () => {
+      console.log('QR code image has been saved!');
+    });
     fs.writeFile('link.txt', data, (err) => {
         if (err) throw err;
         console.log('The file has been saved!');
