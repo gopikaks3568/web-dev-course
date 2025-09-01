@@ -4,9 +4,10 @@
 
 import express from "express";
 import bodyParser from "body-parser";
-import { dirname } from "path";
-import { fileURLToPath } from "url";
+import { dirname } from "path"; // it gets the directory name of the current module
+import { fileURLToPath } from "url"; // it converts the URL to a file path
 const __dirname = dirname(fileURLToPath(import.meta.url));
+
 
 
 const app = express();

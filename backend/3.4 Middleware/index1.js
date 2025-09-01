@@ -1,3 +1,5 @@
+//Middleware are functions in Express that sit between the request and the response.
+
 import express from "express";
 import { dirname } from "path";
 import { fileURLToPath } from "url";
